@@ -7,8 +7,10 @@ def loan_calculator(A,T,R):
 	#R is the interest rate
 	if T <=  0:
 		print("0 is not valid time")
+		#tests for zero and negative numbers
 	elif T > 12:
 		print("Invalid time limit")
+		#tests for maximum months 12
 	else:
 		return T
 
