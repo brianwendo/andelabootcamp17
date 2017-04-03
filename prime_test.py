@@ -1,5 +1,5 @@
 import unittest
-from prime.py import generate_prime
+from prime_number.py import generate_prime
 
 class generateprimeTestcase(unittest.Testcase)
 	def test_isprime(self):
