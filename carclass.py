@@ -1,5 +1,6 @@
 class Car(object):
 	"""docstring for Car"""
+	speed = 0
 	def __init__(self, name = 'General', model = 'GM', vehicle_type = 'None'):
 		self.name= name
 		self.model = model
